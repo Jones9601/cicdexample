@@ -1,0 +1,22 @@
+name: Pull Request
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: latest-stable
+    - name: Install Dependencies
+      run: |
+        pod install
+    - name: Build Generate
+      run: |
+        xcodebuild archive -workspace cicdexample.xcworkspace -scheme cicdexample -archivePath ${{ runner.temp }}/cicdexample.xcarchive
