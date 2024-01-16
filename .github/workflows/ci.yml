@@ -19,4 +19,4 @@ jobs:
         pod install
     - name: Build Generate
       run: |
-        xcodebuild archive -workspace cicdexample.xcworkspace -scheme cicdexample -archivePath ${{ runner.temp }}/cicdexample.xcarchive
+        xcodebuild archive -workspace cicdexample.xcworkspace -scheme cicdexample -archivePath ${{ runner.temp }}/cicdexample.xcarchive -allowProvisioningUpdates
