@@ -6,3 +6,23 @@ platform :ios do
     build_app(xcargs: "-allowProvisioningUpdates")
   end
 end
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :custom_lane1 do
+    build_app
+  end
+end
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :beta do
+    build_app(scheme: "MyApp")
+    upload_to_testflight
+    slack(message: "Successfully distributed a new beta build")
+  end
+end
+
+# xcodebuild -sdk iphoneos -configuration Release -workspace cicdexample.xcworkspace -scheme cicdexample archive CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY="$(APPLE_CERTIFICATE_SIGNING_IDENTITY)" APP_PROFILE=$(APP_PROFILE_CUG) EXT_PROFILE=$(EXT_PROFILE_CUG) -archivePath mobileApp.xcarchive
+# xcodebuild -exportArchive -archivePath mobileApp.xcarchive -exportOptionsPlist $(Build.SourcesDirectory)/ios/ExportOptions_${{ parameters.build_type }}.plist  -exportPath $(ExportIpaPath)
+
