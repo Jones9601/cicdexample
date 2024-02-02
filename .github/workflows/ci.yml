@@ -19,4 +19,6 @@ jobs:
         pod install
     - name: Build Generate
       run: |
-        xcodebuild archive -workspace cicdexample.xcworkspace -scheme cicdexample -archivePath ${{ runner.temp }}/cicdexample.xcarchive -allowProvisioningUpdates
+        echo "Archive the iOS app"
+        cd $(Build.SourcesDirectory)
+        xcodebuild -sdk iphoneos -configuration Release -workspace /Users/runner/work/1/s/ios/mobileApp.xcworkspace -scheme mobileApp archive CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY="$(APPLE_CERTIFICATE_SIGNING_IDENTITY)" APP_PROFILE=$(APP_PROFILE_CUG) EXT_PROFILE=$(EXT_PROFILE_CUG) -archivePath $(ArchivePath)
