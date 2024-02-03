@@ -6,13 +6,6 @@ on:
       - master
   workflow_dispatch:
 
-variables:
-  - name: ArchivePath
-    value: '/Users/runner/work/1/s/output/iphoneos/Release/mobileApp.xcarchive'
-
-  - name: ExportIpaPath
-    value: '/Users/runner/work/1/s/output/iphoneos/Release'
-
 jobs:
   build:
     runs-on: macos-latest
