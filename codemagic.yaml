@@ -9,10 +9,10 @@ workflows:
       # ios_signing:
       #   distribution_type: app_store
       #   bundle_identifier: com.visa.visapay.cicdexample
-      # vars:
-      #   BUNDLE_ID: "com.visa.visapay.cicdexample"
-      #   XCODE_WORKSPACE: "cicdexample.xcworkspace"
-      #   XCODE_SCHEME: "cicdexample"
+      vars:
+        BUNDLE_ID: "com.visa.visapay.cicdexample"
+        XCODE_WORKSPACE: "cicdexample.xcworkspace"
+        XCODE_SCHEME: "cicdexample"
       xcode: latest
       cocoapods: default
     scripts:
