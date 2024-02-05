@@ -10,7 +10,7 @@ workflows:
       #   distribution_type: app_store
       #   bundle_identifier: com.visa.visapay.cicdexample
       vars:
-        BUNDLE_ID: "com.visa.visapay.cicdexample"
+        BUNDLE_ID: "com.visa.cemea.visapay.dev"
         XCODE_WORKSPACE: "cicdexample.xcworkspace"
         XCODE_SCHEME: "cicdexample"
       xcode: latest
@@ -28,9 +28,10 @@ workflows:
           agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Build ipa for distribution
         script: | 
-          xcode-project build-ipa \
-            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
-            --scheme "$XCODE_SCHEME"
+          xcodebuild -sdk iphoneos -configuration Release -workspace cicdexample.xcworkspace -scheme cicdexample archive CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY="$(APPLE_CERTIFICATE_SIGNING_IDENTITY)" APP_PROFILE=$(APP_PROFILE_CUG) EXT_PROFILE=$(EXT_PROFILE_CUG) -archivePath mobileApp.xcarchive
+          # xcode-project build-ipa \
+          #   --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+          #   --scheme "$XCODE_SCHEME"
     # artifacts:
     #   - build/ios/ipa/*.ipa
     #   - /tmp/xcodebuild_logs/*.log
