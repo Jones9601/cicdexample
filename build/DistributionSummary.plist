@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cicdexample.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>CB2BA00055A7760D7A0AC735D8A18CFEFCFED33C</string>
+				<key>dateExpires</key>
+				<string>07/07/24</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>P8T7AS6RLB.com.visa.cemea.visapay.dev</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>P8T7AS6RLB</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>cicdexample.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>1021ce8e-13dc-4dc9-980c-4b58d3f2430f</string>
+				<key>dateExpires</key>
+				<string>20/12/24</string>
+				<key>name</key>
+				<string>VisaPay-Dev</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>P8T7AS6RLB</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

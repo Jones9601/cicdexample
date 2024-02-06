@@ -1,0 +1,135 @@
+2024-02-06 05:54:09 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x11fdb3510; archive(resolved)="<IDEArchive: 0x11fe49490>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team(resolved)="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x11fdb3510; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x11fdc0130; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionContext: 0x11fdd8940; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionContext: 0x147e0e6a0; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionContext: 0x11fd96e30; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionContext: 0x112c08a70; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionContext: 0x11fd9e2b0; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionContext: 0x11fda01f0; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionContext: 0x147e0cb30; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="<IDEProvisioningBasicTeam: 0x11fd94ea0; teamID='P8T7AS6RLB', teamName='(null)'>">
+	<IDEDistributionContext: 0x112c08ca0; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="(null)">
+	<IDEDistributionContext: 0x112c07a10; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="(null)">
+	<IDEDistributionContext: 0x11c60dae0; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x11fd8ed40>", team="(null)">
+	<IDEDistributionContext: 0x11fee0ef0; archive = "<IDEArchive: 0x11fe49490>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x11fdb3510>
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2024-02-06 05:54:09 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/jonesjoseph/Documents/IOS-Project/cicdexample/build/cicdexample.xcarchive/Products/Applications/cicdexample.app' '/var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root/Payload/cicdexample.app'
+2024-02-06 05:54:09 +0000  >>> Copying /Users/jonesjoseph/Documents/IOS-Project/cicdexample/build/cicdexample.xcarchive/Products/Applications/cicdexample.app 
+2024-02-06 05:54:09 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-02-06 05:54:09 +0000  3895 bytes for ./_CodeSignature/CodeResources
+2024-02-06 05:54:09 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2024-02-06 05:54:09 +0000  935 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2024-02-06 05:54:09 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2024-02-06 05:54:09 +0000  1197 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2024-02-06 05:54:09 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2024-02-06 05:54:09 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2024-02-06 05:54:09 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2024-02-06 05:54:09 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2024-02-06 05:54:09 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2024-02-06 05:54:09 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2024-02-06 05:54:09 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2024-02-06 05:54:09 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2024-02-06 05:54:09 +0000  copying file ./cicdexample ... 
+2024-02-06 05:54:09 +0000  91312 bytes for ./cicdexample
+2024-02-06 05:54:09 +0000  copying file ./embedded.mobileprovision ... 
+2024-02-06 05:54:09 +0000  32336 bytes for ./embedded.mobileprovision
+2024-02-06 05:54:09 +0000  copying file ./Info.plist ... 
+2024-02-06 05:54:09 +0000  1488 bytes for ./Info.plist
+2024-02-06 05:54:09 +0000  copying file ./PkgInfo ... 
+2024-02-06 05:54:09 +0000  8 bytes for ./PkgInfo
+2024-02-06 05:54:09 +0000 [MT] /usr/bin/ditto exited with 0
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2024-02-06 05:54:09 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2024-02-06 05:54:09 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2024-02-06 05:54:09 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2024-02-06 05:54:09 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2024-02-06 05:54:09 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2024-02-06 05:54:09 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2024-02-06 05:54:09 +0000 [MT] Running /Users/jonesjoseph/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root/Payload/cicdexample.app/cicdexample' '-verify_arch' 'arm64e'
+2024-02-06 05:54:09 +0000 [MT] /Users/jonesjoseph/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-02-06 05:54:09 +0000 [MT] Skipping architecture thinning for item "cicdexample" because arch "arm64e" wasn't found
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionODRStep
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2024-02-06 05:54:09 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root/Payload/cicdexample.app'
+2024-02-06 05:54:09 +0000 [MT] /usr/bin/xattr exited with 0
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2024-02-06 05:54:09 +0000 [MT] Entitlements for <IDEDistributionItem: 0x11ff752c0; bundleID='com.visa.cemea.visapay.dev', path='<DVTFilePath:0x11ff09a00:'/Users/jonesjoseph/Documents/IOS-Project/cicdexample/build/cicdexample.xcarchive/Products/Applications/cicdexample.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x11ff22040; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x112c75590; name='Apple Development: Lokesh Devarajan (7LZS5GAV46)', hash='CB2BA00055A7760D7A0AC735D8A18CFEFCFED33C', serialNumber='2C66080DA4C4EC271B1ABF172E682A73', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-08 07:15:52 +0000''>', entitlements='{
+    "application-identifier" = "P8T7AS6RLB.com.visa.cemea.visapay.dev";
+    "com.apple.developer.team-identifier" = P8T7AS6RLB;
+    "get-task-allow" = 1;
+}', teamID='P8T7AS6RLB', identifier='com.visa.cemea.visapay.dev', executablePath='<DVTFilePath:0x11ff76ed0:'/Users/jonesjoseph/Documents/IOS-Project/cicdexample/build/cicdexample.xcarchive/Products/Applications/cicdexample.app/cicdexample'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "P8T7AS6RLB.com.visa.cemea.visapay.dev";
+    "com.apple.developer.team-identifier" = P8T7AS6RLB;
+    "get-task-allow" = 1;
+}
+2024-02-06 05:54:09 +0000 [MT] Entitlements for <IDEDistributionItem: 0x11ff752c0; bundleID='com.visa.cemea.visapay.dev', path='<DVTFilePath:0x11ff09a00:'/Users/jonesjoseph/Documents/IOS-Project/cicdexample/build/cicdexample.xcarchive/Products/Applications/cicdexample.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x11ff22040; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x112c7acd0; name='Apple Development: Lokesh Devarajan (7LZS5GAV46)', hash='CB2BA00055A7760D7A0AC735D8A18CFEFCFED33C', serialNumber='2C66080DA4C4EC271B1ABF172E682A73', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-08 07:15:52 +0000''>', entitlements='{
+    "application-identifier" = "P8T7AS6RLB.com.visa.cemea.visapay.dev";
+    "com.apple.developer.team-identifier" = P8T7AS6RLB;
+    "get-task-allow" = 1;
+}', teamID='P8T7AS6RLB', identifier='com.visa.cemea.visapay.dev', executablePath='<DVTFilePath:0x11ff76ed0:'/Users/jonesjoseph/Documents/IOS-Project/cicdexample/build/cicdexample.xcarchive/Products/Applications/cicdexample.app/cicdexample'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "P8T7AS6RLB.com.visa.cemea.visapay.dev";
+    "com.apple.developer.team-identifier" = P8T7AS6RLB;
+    "get-task-allow" = 1;
+}
+2024-02-06 05:54:09 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x11ff752c0; bundleID='com.visa.cemea.visapay.dev', path='<DVTFilePath:0x11ff09a00:'/Users/jonesjoseph/Documents/IOS-Project/cicdexample/build/cicdexample.xcarchive/Products/Applications/cicdexample.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x11ff22040; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x112c7ed00; name='Apple Development: Lokesh Devarajan (7LZS5GAV46)', hash='CB2BA00055A7760D7A0AC735D8A18CFEFCFED33C', serialNumber='2C66080DA4C4EC271B1ABF172E682A73', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-08 07:15:52 +0000''>', entitlements='{
+    "application-identifier" = "P8T7AS6RLB.com.visa.cemea.visapay.dev";
+    "com.apple.developer.team-identifier" = P8T7AS6RLB;
+    "get-task-allow" = 1;
+}', teamID='P8T7AS6RLB', identifier='com.visa.cemea.visapay.dev', executablePath='<DVTFilePath:0x11ff76ed0:'/Users/jonesjoseph/Documents/IOS-Project/cicdexample/build/cicdexample.xcarchive/Products/Applications/cicdexample.app/cicdexample'>', hardenedRuntime='0'>'> to: /var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/entitlements~~~m2A8Pn
+2024-02-06 05:54:09 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CB2BA00055A7760D7A0AC735D8A18CFEFCFED33C' '--entitlements' '/var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/entitlements~~~m2A8Pn' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root/Payload/cicdexample.app'
+2024-02-06 05:54:09 +0000  /var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root/Payload/cicdexample.app: replacing existing signature
+2024-02-06 05:54:09 +0000  /var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root/Payload/cicdexample.app: signed app bundle with Mach-O thin (arm64) [com.visa.cemea.visapay.dev]
+2024-02-06 05:54:09 +0000 [MT] /usr/bin/codesign exited with 0
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2024-02-06 05:54:09 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2024-02-06 05:54:09 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root' '/var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Packages/cicdexample.ipa'
+2024-02-06 05:54:09 +0000  >>> Copying /var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root 
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/_CodeSignature/CodeResources ... 
+2024-02-06 05:54:09 +0000  3895 bytes for ./Payload/cicdexample.app/_CodeSignature/CodeResources
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2024-02-06 05:54:09 +0000  935 bytes for ./Payload/cicdexample.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2024-02-06 05:54:09 +0000  1197 bytes for ./Payload/cicdexample.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2024-02-06 05:54:09 +0000  258 bytes for ./Payload/cicdexample.app/Base.lproj/Main.storyboardc/Info.plist
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2024-02-06 05:54:09 +0000  1197 bytes for ./Payload/cicdexample.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2024-02-06 05:54:09 +0000  896 bytes for ./Payload/cicdexample.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2024-02-06 05:54:09 +0000  258 bytes for ./Payload/cicdexample.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/cicdexample ... 
+2024-02-06 05:54:09 +0000  91312 bytes for ./Payload/cicdexample.app/cicdexample
+2024-02-06 05:54:09 +0000  copying file ./Payload/cicdexample.app/embedded.mobileprovision ... 
+2024-02-06 05:54:09 +0000  32336 bytes for ./Payload/cicdexample.app/embedded.mobileprovision
+copying file ./Payload/cicdexample.app/Info.plist ... 
+2024-02-06 05:54:09 +0000  1488 bytes for ./Payload/cicdexample.app/Info.plist
+copying file ./Payload/cicdexample.app/PkgInfo ... 
+2024-02-06 05:54:09 +0000  8 bytes for ./Payload/cicdexample.app/PkgInfo
+2024-02-06 05:54:09 +0000 [MT] /usr/bin/ditto exited with 0
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2024-02-06 05:54:09 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-02-06 05:54:09 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x112c70810:'/var/folders/2_/_hwhb2151fvbn25ql3dcdnyc0000gp/T/XcodeDistPipeline.~~~C0mLfi/Root/Payload/cicdexample.app'>
+2024-02-06 05:54:09 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
