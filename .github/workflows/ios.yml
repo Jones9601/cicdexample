@@ -1,0 +1,27 @@
+name: iOS starter workflow
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    inputs:
+      configuration_name:
+        description: "The type of build to generate"
+        type: choice
+        required: true
+        options:
+          - "Release"
+          - "Debug"
+
+jobs:
+  build:
+    name: Build and Test default scheme using any available iPhone simulator
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set Default Scheme
+        run: |
+          echo "Jones"
