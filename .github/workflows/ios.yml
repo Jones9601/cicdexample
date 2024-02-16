@@ -10,10 +10,15 @@ on:
         options:
           - "Release"
           - "Debug"
-      OOB_Latest_Tag:
-        description: "checkout"
+      env_name:
+        description: "The type of Env build to generate"
+        type: choice
         required: true
-        type: string
+        options:
+          - "Visapay"
+          - "Visapay(DEV)"
+          - "Visapay(UAT)"
+          - "Visapay(CUG)"
 
 jobs:
   build:
