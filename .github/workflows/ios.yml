@@ -1,9 +1,6 @@
 name: iOS starter workflow
 
 on:
-  push:
-    branches:
-      - master
   workflow_dispatch:
     inputs:
       configuration_name:
@@ -13,6 +10,10 @@ on:
         options:
           - "Release"
           - "Debug"
+      OOB_Latest_Tag:
+        description: "checkout"
+        required: true
+        type: string
 
 jobs:
   build:
